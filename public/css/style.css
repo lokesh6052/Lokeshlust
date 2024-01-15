@@ -1,0 +1,347 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+/* navbar */
+
+.navbar{
+    height: 5rem;
+    background-color: #fff;
+}
+
+.fa-compass{
+    font-size: 2rem;
+    color: #fe424d;
+    margin-left: 2rem;
+    transition: all 0.3s linear;
+}
+
+.fa-compass:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 20px #fe424d);
+}
+
+.nav-link{
+    color: #222222 !important;
+    margin-right: 2rem;
+    /* outline: 1px solid #fe424d; */
+    border-bottom: 1px solid #fe424d;
+    border-radius: 10px;
+    /* padding-left: 10px !important;
+    padding-right: 10px !important; */
+    filter: drop-shadow(0px 0px 10px #000);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+    background-color: #fe424d;
+    border-radius: 20px;
+    color: #fff !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    filter: drop-shadow(0px 0px 20px #fe424d);
+}
+
+/* footer */
+.f-info-condition a{
+    text-decoration: none;
+    color: #222222;
+    padding-right: 1rem;
+}
+
+.f-info-condition a:hover{
+    text-decoration: underline;
+}
+
+.f-info-socials{
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.f-info-socials i{
+    text-decoration: none;
+    transition: all 0.1s linear;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.f-info-socials i:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(2px 2px 10px rgb(0, 31, 102));
+}
+
+.f-info-condition{
+    width: 100%;
+}
+
+.f-info-brand{
+    width: 100%;
+}
+
+.f-info{
+    text-align: center;
+    background-color: #ebebeb;
+    height: 8rem;
+    border-top: 0.25px solid rgba(000, 000, 000, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cards */
+.card{
+    margin-bottom: 2.5rem !important;
+    /* text-align: center; */
+    transition: all 0.3s linear;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-top{
+    border-radius: 2rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s linear;
+}
+
+.card-1{
+    border: none;
+    margin-bottom: 2.5rem !important;
+    text-align: center;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    position: relative;
+}
+.card-img-top-1{
+    border-radius: 0.25rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+
+}
+
+.card-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s linear;
+}
+
+.card-2{
+    border: none;
+}
+
+/* .card-body{
+    padding: 0 !important;
+} */
+
+.card-text p{
+    font-weight: 400;
+}
+
+.listing-links{
+    text-decoration: none;
+}
+
+/* Card-Effect */
+
+.card-1:hover{
+    filter: drop-shadow(0px 0px 20px blue);
+}
+
+.card-1:hover img{
+    transform: scale(1.1);
+}
+/* new route effect's */
+
+.form-control{
+    transition: all 0.3s linear;
+    outline: none;
+    border-radius: 15px;
+}
+
+.form-control:hover{
+    filter: drop-shadow(0px 0px 20px blue);
+    transform: scale(1);
+}
+.form-control:focus{
+    filter: drop-shadow(0px 0px 20px blue);
+    transform: scale(1);
+}
+
+.btn1{
+    outline : 1px solid #fe424d!important;
+    color: #fe424d;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.40rem !important;
+    padding-bottom: 0.40rem !important;
+    transition: all 0.2s linear;
+}
+
+.btn1:hover{
+    color: #fff;
+    background-color: #fe424d;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 20px rgb(254, 66, 77));
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.heading{
+    background-color: rgba(254, 66, 77, 0.85);
+    filter: drop-shadow(0px 15px 15px #fe424d);
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+}
+
+.edit-btn{
+    outline : 1px solid #fe424d!important;
+    font-weight: 700;
+    border-radius: 25px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transition: all 0.2s linear;
+    filter: drop-shadow(0px 0px 50px #fe424d);
+}
+
+.edit-btn:hover{
+    color: #fff;
+    background-color: #fe424d;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 20px rgb(254, 66, 77));
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+/* show route */
+
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+    /* filter: drop-shadow(0px 0px 5px #000); */
+}
+
+.show-img{
+    height: 30vh !important;
+}
+
+/* Delete Route */
+
+.btn-2{
+    outline : 1px solid #222222!important;
+    color: #222222;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.40rem !important;
+    padding-bottom: 0.40rem !important;
+    transition: all 0.2s linear;
+}
+
+.btn-2:hover{
+    color: #fff;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 20px rgb(34, 34, 34));
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    filter: drop-shadow(0px 0px 30px #222222);
+}
+
+.btn-s{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* dropdown button */
+
+.btn-4{
+    outline : 1px solid #222222!important;
+    color: #222222;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.40rem !important;
+    padding-bottom: 0.40rem !important;
+    transition: all 0.2s linear;
+}
+
+.btn-4:hover{
+    color: #fff;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 20px rgb(34, 34, 34));
+    filter: drop-shadow(0px 0px 30px #222222);
+}
+
+.btn-4:focus{
+    color: #fff;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 20px rgb(34, 34, 34));
+    filter: drop-shadow(0px 0px 30px #222222);
+}
+
+.dt-1{
+    font-weight: 600;
+    transition: all 0.1s linear;
+    text-align: center;
+}
+
+.dt-1:hover{
+    color: #000;
+    font-weight: 800;
+    background-color: rgb(51, 251, 51);
+    filter: drop-shadow(0px 0px 10px rgba(51, 251, 51, 1));
+}
+
+.dt-2{
+    font-weight: 600;
+    transition: all 0.1s linear;
+    text-align: center;
+}
+
+.dt-2:hover{
+    color: #fff;
+    font-weight: 800;
+    background-color: rgb(34, 34, 34);
+    filter: drop-shadow(0px 0px 20px rgba(34, 34, 34, 1));
+}
+
+.dt-3{
+    font-weight: 600;
+    transition: all 0.1s linear;
+    text-align: center;
+}
+
+.dt-3:hover{
+    color: #fff;
+    background-color: #fe424d;
+    filter: drop-shadow(0px 0px 20px rgb(254, 66, 77));
+}
